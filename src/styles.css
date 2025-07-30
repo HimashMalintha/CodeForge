@@ -1,0 +1,246 @@
+/* Andrew Wills */
+.andrew-name {
+  color: white;
+  font-size: 24px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+/* 👋 */
+.greeting-icon {
+  color: black;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+/* Hi There, I’m Andrew Wills */
+.greeting-text {
+  color: #4F4F4F;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+/* A Self Taught / Web Developer */
+.hero-title {
+  color: #873BFF;
+  font-size: 76px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  line-height: 83px;
+  letter-spacing: 0.76px;
+  word-wrap: break-word;
+}
+
+/* Description paragraph */
+.hero-description {
+  color: #5D5D5D;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+/* Buttons */
+.button-outline {
+  color: #873BFF;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.button-filled {
+  color: white;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+/* Stats: Numbers */
+.stats-number {
+  color: #5E01D6;
+  font-size: 64px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  line-height: 70.4px;
+  word-wrap: break-word;
+}
+
+/* Stats: Labels */
+.stats-label {
+  color: #333333;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+/* Section titles */
+.section-title {
+  color: #873BFF;
+  font-size: 42px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  line-height: 46.2px;
+  word-wrap: break-word;
+}
+
+/* Project card title */
+.project-title {
+  color: #5D5D5D;
+  font-size: 24px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+/* Project description */
+.project-description {
+  color: #5D5D5D;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+/* Tech tags */
+.tech-tag {
+  color: white;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+/* Why hire me text */
+.why-text {
+  color: #262626;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+/* Skills text */
+.skill-text {
+  color: #333333;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+/* Testimonials */
+.testimonial-text {
+  color: #4F4F4F;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.testimonial-name {
+  color: #A173FF;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+.testimonial-role {
+  color: #888888;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.testimonial-date {
+  color: #6D6D6D;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+/* Certifications */
+.cert-title {
+  color: #454545;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.cert-link {
+  color: #5D5D5D;
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  text-decoration: underline;
+  line-height: 18px;
+  letter-spacing: 0.28px;
+  word-wrap: break-word;
+}
+
+/* Contact */
+.contact-subtitle {
+  color: #4F4F4F;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.contact-email {
+  color: white;
+  font-size: 24px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+/* Footer */
+.footer-text {
+  color: white;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+.footer-link {
+  color: white;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  text-decoration: underline;
+  line-height: 30px;
+  word-wrap: break-word;
+}
