@@ -1,38 +1,60 @@
-const About = () => (
+import React from 'react';
+
+const Skills = () => {
+  const skillList = [
+    'HTML5', 'CSS3', 'JavaScript (ES6+)', 'React.js', 'Vue.js',
+    'Tailwind CSS', 'SASS/SCSS', 'jQuery', 'Node.js', 'Express.js', 'PHP',
+    'Python', 'Ruby on Rails', 'SQL', 'Firebase', 'Docker',
+  ];
+
+  return (
     <section
       style={{
-        padding: '4rem 2rem',
-        maxWidth: '800px',
+        padding: '5rem 2rem',
+        backgroundColor: '#FFFFFF',
+        fontFamily: 'Inter, sans-serif',
+        maxWidth: '1100px',
         margin: '0 auto',
-        textAlign: 'center',
       }}
     >
       <h2
         style={{
-          color: '#5E01D6',
-          fontSize: '2.625rem',
-          fontWeight: '600',
-          fontFamily: 'Inter',
-          marginBottom: '1.5rem',
+          color: '#7A00F7',
+          fontSize: '2rem',
+          fontWeight: '700',
+          marginBottom: '2.5rem',
         }}
       >
-        Why Hire Me?
+        My Skills
       </h2>
-      <p
+
+      <div
         style={{
-          color: '#262626',
-          fontSize: '1.25rem',
-          lineHeight: '1.8',
-          fontFamily: 'Inter',
-          maxWidth: '700px',
-          margin: '0 auto',
+          display: 'flex',
+          flexWrap: 'wrap',
+          gap: '1rem 1.25rem', // More horizontal and vertical gap
         }}
       >
-        MERN stack developer. Pixel-perfect thinker. I turn coffee into code and ideas into sleek,
-        functional web apps. Based in Sri Lanka — building fast, learning faster.
-      </p>
+        {skillList.map((skill, index) => (
+          <span
+            key={index}
+            style={{
+              padding: '0.6rem 1.4rem', // Larger padding for each badge
+              backgroundColor: '#F0E8FF',
+              borderRadius: '10px',
+              fontSize: '1rem',
+              color: '#333',
+              fontWeight: 500,
+              whiteSpace: 'nowrap',
+              boxShadow: '0 1px 3px rgba(0,0,0,0.05)',
+            }}
+          >
+            {skill}
+          </span>
+        ))}
+      </div>
     </section>
   );
-  
-  export default About;
-  
+};
+
+export default Skills;
